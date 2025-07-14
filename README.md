@@ -1,3 +1,5 @@
+[![SQL](https://img.shields.io/badge/SQL-%230072C6.svg?style=flat&logo=Microsoft%20SQL%20Server&logoColor=white)](https://www.microsoft.com/sql-server)
+[![PowerBI](https://img.shields.io/badge/PowerBI-%23F2C811.svg?style=flat&logo=power-bi&logoColor=white)](https://powerbi.microsoft.com/)
 
 # Inventory-Management-Analysis
 This is an Analysis to optimise inventory management  by analyzing sales and inventory data using SQL and PowerBI.
