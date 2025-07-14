@@ -8,9 +8,7 @@ This is an Analysis to optimise inventory management  by analyzing sales and inv
 ---
 
 ## Introduction:
-This is an Inventory Management analysis done with SQL and PowerBI, I analyzed Inventory data, production data and Sales data from the AdventureWorks 2019 database. It is a fictitious company named "FitCapacity" and it is intended to solve some problems.
-
-**_Disclaimer_** This is not a real company as we know that adventure works database is compiled by Microsoft for learning purposes.
+This is an Inventory Management analysis done with SQL and PowerBI, I analyzed Inventory data, production data and Sales data from the AdventureWorks 2019 database. 
 
 
 ---
