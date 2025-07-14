@@ -19,7 +19,6 @@ The goal of the analysis is to:
 - identify the average time a product is out of stock and the frequency of stockouts.
 - classify products into high-selling, low-selling and average-selling. 
 - use the insights gained to make recommendations for how to optimize inventory levels and minimize stockouts which may include adjustments to reorder points, ordering certain products, or discontinuing products that are not selling well.
- ----
  
  
 ---
