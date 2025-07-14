@@ -21,54 +21,7 @@ The goal of the analysis is to:
 - use the insights gained to make recommendations for how to optimize inventory levels and minimize stockouts which may include adjustments to reorder points, ordering certain products, or discontinuing products that are not selling well.
  ----
  
- ## Skills and Concepts demonstrated:
  
- - SQL (Select, alias, Views)
- - PowerBI concepts like:
-   - creating columns for calculations for dates, time, and duration
-   - Creating key performance indicators (KPIs) and other business calculations,
-   - Developing general DAX calculations that deal with text and numbers,
-   - Performed advanced DAX calculations for solving statistical measures and other mathematical formulas
-   - Data Modelling,
-   - Measures,
-   - Navigation panes,
-   - filters,
-   - tooltips, 
-   - buttons,
-   - bookmarks,
-   - Data Visualization
- ---
-  
- ## Data Source:
-
-The analysis draws on the AdventureWorks 2019 sample database; after reviewing its schema, objects, and data dictionary, I selected the relevant tables for this work.
-
- ---
- 
-## Data Transformation:
-- Several structured queries were written to get the right tables and then saved as views in the Database on SQL Management Studio.
-![](SQL_view.png)
-
-- Then I imported the views into my PowerBI desktop app 
-![](SQL_PWBI.png)
-
-- Then I selected the right views I had created in SQL. From here, we know the right tables from AdventureWorks to use.
-
-![](SQL_Tables.png)
-
-- I transformed the data in Power Query, checked for Colum quality, consistent or appropriate data types
-- I began writing several Dax and creating measures and calculated columns to get the right metrics for the Inventory analysis.
-- I also created the calendar table
-- The queries I wrote on SQL are  compiled and also uploaded here in this repository as "Inventory Management Scripts"
----
-
-## Data Modelling:
-The intelligence in PowerBI makes it such that tables are automatically joined by creating relationships with them. However, as someone who understands the dataset and wants to get specific insights and information. I had to create other relationships and measures to enable me. so I did another model. I created 7 dimension tables and 2 fact tables as I hoped for a Star Schema.
-
-Created Model               |        Automated Model
-:------------------------:  | :----------------------------------:
-![](Datamodel2.png)         | ![](Datamodel1.png)
-
 ---
 ## Data Analysis
 
@@ -85,7 +38,6 @@ Several expressions and functions were made to arrive at the desired KPI or Metr
 - Stock Turn = [COGS]/[CostofInventory]
 - ABC Ranking and XYZ analysis was also done.
 
-_All the formlulas for the calculated columns and measures can not be well explained by just writing the expressions here as they are written on various tables. Kindly pardon me_   :smile:
 
 
 ## Data Visualization
