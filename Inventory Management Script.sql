@@ -1,4 +1,4 @@
-/****** Script for SelectTopNRows command from SSMS  ******/
+/****** Script for SelectTopNRows command from SSMS 
 --SELECT * FROM [AdventureWorks2019].[Production].[ProductCategory]  ---4 ROWS
 
 --SELECT *   FROM [AdventureWorks2019].[Production].[Product]   --504 ROWS
